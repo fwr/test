@@ -1,0 +1,28 @@
+Windows PowerShell
+版权所有 (C) 2009 Microsoft Corporation。保留所有权利。
+
+F:\360data\重要数据\我的文档\GitHub [master +5 ~0 -0 !]> ls
+
+
+    目录: F:\360data\重要数据\我的文档\GitHub
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----        2013/11/25     17:30            fuwanrong
+d----        2013/11/25     16:40            fwr
+d----        2013/11/25     22:18            test
+-a---        2013/11/25     17:47       1675 a..txt
+-a---        2013/11/25     17:47        401 a..txt.pub
+
+
+F:\360data\重要数据\我的文档\GitHub [master +5 ~0 -0 !]> git add test.txt
+F:\360data\重要数据\我的文档\GitHub [master +1 ~0 -0 | +5 ~0 -0 !]> git commit
+Aborting commit due to empty commit message.
+F:\360data\重要数据\我的文档\GitHub [master +1 ~0 -0 | +5 ~0 -0 !]> git commit -
+m "fitst commit"
+[master (root-commit) 6e565fa] fitst commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+F:\360data\重要数据\我的文档\GitHub [master +5 ~0 -0 !]>
+
